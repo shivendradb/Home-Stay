@@ -1,0 +1,110 @@
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 80px);
+  padding-bottom: 7rem;
+  background: url("../../assets/img/home.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header.masthead-bottom {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 80px);
+  padding-bottom: 7rem;
+  background: url("../../assets/img/footer-image.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.section-one {
+  position: relative;
+  left: 10%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.comma {
+  font-size: 3rem;
+  color: #8D634B;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+  }
+}
+
+.masthead-subheading-top {
+  font-size: 2rem;
+}
+
+.masthead-subheading-bottom.mb-0 {
+  font-size: 2.5rem;
+}
+
+.masthead-subheading-top.mb-0 {
+  background-image: url("fire.jpg);
+}
+
+.masthead-two.text-center.text-white {
+  background: url(fire.jpg);
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  margin-top: 9rem;
+  position: relative;
+}
+
+.about-us-section {
+  background: url("../../assets/img/footer-image.jpg");
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.about-us-container {
+  z-index: 1;
+  position: relative;
+}
+
+.info-container {
+  max-width: 1220px;
+}
+
+.footer-text {
+  color: white;
+  position: relative;
+  background: url("../../assets/img/footer-image.jpg");
+  overflow: hidden;
+  background-position: 50%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.footer-text-content {
+  color: white;
+}
+
+.masthead-subheading-bottom-top.mb-0 {
+  font-size: 35px;
+}
+
+.masthead-heading-bottom.mb-0 {
+  font-size: 25px;
+}
+
+.masthead-subheading-bottom-bottom.mb-0 {
+  font-size: 25px;
+}
+
